@@ -26,7 +26,6 @@
                 <div class="form-group">
                     <label for="password">Password</label>
                     <input type="password" id="password" name="password" required>
-                    <button onclick="tooglePass()">Show</button>
                 </div>
 
                 <button type="submit" class="btn">Login</button>
@@ -37,19 +36,5 @@
     </main>
 
     <%- include('partials/footer') %>
-    <script>
-        // Write a funtion to show password
-        function tooglePass() {
-            var pass = document.getElementById('password');
-            var btn = document.querySelector('.form-group button');
-            if (pass.type === 'password') {
-                pass.type = 'text';
-                btn.textContent = 'Hide';
-            } else {
-                pass.type = 'password';
-                btn.textContent = 'Show';
-            }
-        }
-    </script>
 </body>
 </html>
