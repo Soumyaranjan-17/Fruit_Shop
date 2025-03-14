@@ -28,7 +28,7 @@ async function initializeServer() {
     const PORT = process.env.PORT || 3000;
     const HOST = '0.0.0.0';
     app.listen(PORT, HOST, () => {
-      console.log(`Server running on port http://localhost:${PORT}`);
+      console.log(`This Server running on port http://localhost:${PORT}`);
     });
   } catch (err) {
     console.error('Failed to connect to MongoDB:', err);
