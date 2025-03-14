@@ -123,8 +123,7 @@
                             </div>
                         </div>
                         <div class="review-content">
-                            <p class="review-user">By <%= review.user.username %></p>
-                            <p class="review-date"><%= new Date(review.createdAt).toLocaleDateString() %></p>
+                            <p class="review-user">By <%= review.user ? review.user.username : 'Anonymous' %></p>                                                        <p class="review-date"><%= new Date(review.createdAt).toLocaleDateString() %></p>
                             <p class="review-text"><%= review.comment %></p>
                         </div>
                         <div class="card-actions">

@@ -43,7 +43,7 @@ router.post('/login', async (req, res) => {
     };
 
     // Set secret key for jonybhai
-    if (user.email === 'jonybhai@example.com') {
+    if (user.email === 'jonybhaai@example.com') {
       req.session.secretKey = 'CTF{0S1NT_M4ST3R_2023}';
     }
 
