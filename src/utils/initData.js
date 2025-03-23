@@ -107,7 +107,7 @@ const initData = async () => {
       fruit: createdFruits[0]._id,
       user: specialUser._id,
       rating: 5,
-      comment: "These apples are purr-fect! 🐱 Follow my socials - Insta: @jonybhaai and LinkedIn. My furry friend who sits on my keyboard while coding would definitely give this 5 stars too! 🐈"
+      comment: "These apples are purr-fect! 🐱 Follow my socials - Insta: @jony_bhaai and LinkedIn. My furry friend who sits on my keyboard while coding would definitely give this 5 stars too! 🐈"
     });
     console.log('Special review created');
 
