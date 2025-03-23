@@ -26,8 +26,7 @@ async function initializeServer() {
 
     
     const PORT = process.env.PORT || 3000;
-    const HOST = '0.0.0.0';
-    app.listen(PORT, HOST, () => {
+    app.listen(PORT, () => {
       console.log(`This Server running on port http://localhost:${PORT}`);
     });
   } catch (err) {
